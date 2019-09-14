@@ -17,6 +17,6 @@ end
 
 def valid_phone_number?(phone)
   phone.each do |num|
-    phone.match(/\d.{10}/) ? true:false
+    num.match(/\d.{10}/) ? true:false
   end 
 end
